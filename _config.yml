@@ -14,7 +14,7 @@ minimal: true              # use a dark header
 # Menu
 
 navigation:                # accepts {file, title, url, icon, sidebaricon}
-  - {file: "home.html", title: Home, url: "https://kjbelanger/github.io/home}
+  - {file: "home.html", title: Home, url: "https://kjbelanger/github.io}
   - {file: "README.md", title: About Me, url: https://kjbelanger/github.io/aboutme}
   - {file: "qualifications.html", title: Qualifications, url: "https://kjbelanger/github.io/qualifications}
   - {file: "badges.html", title: Badges, url: "https://kjbelanger/github.io/badges}
