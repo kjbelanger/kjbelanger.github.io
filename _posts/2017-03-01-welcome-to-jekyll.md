@@ -1,25 +1,27 @@
 ---
-title: "Welcome to Jekyll"
-layout: post
+layout: page
+title: "Home"
+permalink: /
 ---
 
-You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
+## Welcome to My Personal Website!
 
+Hello and welcome to my personal website! I'm thrilled to have you here. This website is all about showcasing who I am and what I'm passionate about. I've created different sections to help you navigate and learn more about me. Feel free to explore the tabs to get a better understanding of my background, skills, and interests.
 
-To add new posts, simply add a file in the `_posts` directory that follows the convention `YYYY-MM-DD-name-of-post.ext` and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.
+### About Me
 
-Jekyll also offers powerful support for code snippets:
+In the "About Me" section, you'll find a comprehensive overview of my journey, experiences, and aspirations. I've shared my story and how I've evolved both personally and professionally. Dive in to get to know me better!
 
-{% highlight ruby %}
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
-{% endhighlight %}
+### Portfolio
 
-Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
+Under the "Portfolio" tab, you'll discover a collection of my notable projects and achievements. Each project is a testament to my skills and dedication. From coding to creativity, you'll see a variety of endeavors that define my capabilities.
 
-[jekyll-docs]: http://jekyllrb.com/docs/home
-[jekyll-gh]:   https://github.com/jekyll/jekyll
-[jekyll-talk]: https://talk.jekyllrb.com/
+### Blog
+
+Curious about my thoughts on various topics? Head over to the "Blog" section, where I share my insights, ideas, and observations. It's a space where I express my opinions and engage in meaningful discussions.
+
+### Contact
+
+If you'd like to get in touch with me, the "Contact" section provides you with the means to do so. Whether you have questions, opportunities to collaborate, or just want to say hello, I'm excited to hear from you.
+
+Thank you for visiting my website, and I hope you enjoy your time here. Don't hesitate to reach out if you have any questions or if you'd like to connect. Looking forward to sharing more with you!
