@@ -16,7 +16,7 @@ minimal: false             # use a dark header
 # Menu
 
 navigation:                # accepts {file, title, url, icon, sidebaricon}
-  - {file: "_posts/welcome.html", title: "Home"}
+  - {file: "welcome.html", title: "Home"}
   - {file: "about.html", title: "About Me"}
   - {file: "achievements.html", title: "Achievements"}
   - {file: "skills.html", title: "Skills"}
