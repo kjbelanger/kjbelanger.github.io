@@ -22,7 +22,7 @@ navigation:                # accepts {file, title, url, icon, sidebaricon}
   - {file: "skills.html", title: "Skills"}
 
 external:                  # shows a footer with social links - for available icons see fontawesome.com/icons
-  - {title: Mail, icon: envelope, url: "mailto:niklasbuschmann@users.noreply.github.com"}
+  - {title: Mail, icon: envelope, url: "mailto:kevinjbelanger@hotmail.com"}
   - {title: LinkedIn, icon: linkedin, url: "https://www.linkedin.com/in/kevin-belanger-6779621b6/"}
 
 comments:
