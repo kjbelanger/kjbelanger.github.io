@@ -5,7 +5,7 @@ permalink: /achievements/
 ---
 
 <style>
-  /* Add CSS styles to wrap images to the right */
+  /* Add CSS styles to wrap images to the right and center text */
   ul li {
     list-style-type: none; /* Remove bullet points from the list items */
   }
@@ -13,10 +13,12 @@ permalink: /achievements/
   .list-item {
     clear: both; /* Clear any floats before the list items */
     margin-bottom: 20px; /* Add some margin between list items */
+    display: flex; /* Use flexbox to align content vertically */
+    align-items: center; /* Center content vertically */
   }
 
   .list-item img {
-    float: left; /* Float the image to the right of the list item */
+    float: left; /* Float the image to the left of the list item */
     margin-right: 20px; /* Add margin to separate the image from text */
     width: 100px; /* Set the desired width for the images */
     height: auto; /* Automatically adjust the height to maintain the aspect ratio */
@@ -37,23 +39,23 @@ permalink: /achievements/
     <ul>
       <li class="list-item">
         <img src="../cloud_practitioner.png" alt="Cloud Practitioner">
-        Cloud Quest: Cloud Practitioner
+        <span>Cloud Quest: Cloud Practitioner</span>
       </li>
       <li class="list-item">
         <img src="../solutions_architect.png" alt="Solutions Architect">
-        Cloud Quest: Solutions Architect
+        <span>Cloud Quest: Solutions Architect</span>
       </li>
       <li class="list-item">
         <img src="../data_analytics.png" alt="Data Analytics">
-        Cloud Quest: Data Analytics
+        <span>Cloud Quest: Data Analytics</span>
       </li>
       <li class="list-item">
         <img src="../networking.png" alt="Networking">
-        Cloud Quest: Networking
+        <span>Cloud Quest: Networking</span>
       </li>
       <li class="list-item">
         <img src="../serverless_developer.png" alt="Serverless Developer">
-        Cloud Quest: Serverless Developer
+        <span>Cloud Quest: Serverless Developer</span>
       </li>
     </ul>
   </section>
