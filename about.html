@@ -4,6 +4,23 @@ title: "About Me"
 permalink: /about/
 ---
 
+<style>
+  /* Add CSS styles to wrap images to the right */
+  ul li {
+    list-style-type: none; /* Remove bullet points from the list items */
+  }
+
+  .list-item {
+    clear: both; /* Clear any floats before the list items */
+    margin-bottom: 20px; /* Add some margin between list items */
+  }
+
+  .list-item img {
+    float: right; /* Float the image to the right of the list item */
+    margin-left: 20px; /* Add margin to separate the image from text */
+  }
+</style>
+
 <article>
   <section>
     <h2>Introduction</h2>
@@ -12,19 +29,19 @@ permalink: /about/
   <section>
     <h2>Employment</h2>
     <ul>
-      <li>
+      <li class="list-item">
         <img src="dnd.jpg" alt="Image 1">
         <strong>Department of National Defense</strong><br>
         IT Technician, Cloud Operations<br>
         June 2023 - Present
       </li>
-      <li>
+      <li class="list-item">
         <img src="nofrills.jpg" alt="Image 2">
         <strong>No Frills</strong><br>
         Department Manager <br>
         April 2020 - March 2023
       </li>
-      <li>
+      <li class="list-item">
         <img src="nofrills.jpg" alt="Image 3">
         <strong>No Frills</strong><br>
         Grocery Clerk <br>
@@ -35,7 +52,7 @@ permalink: /about/
   <section>
     <h2>Education</h2>
     <ul>
-      <li>
+      <li class="list-item">
         <img src="carleton.jpg" alt="Image 4">
         <strong>Carleton University</strong><br>
         Bachelor of Engineering | Computer Systems<br>
