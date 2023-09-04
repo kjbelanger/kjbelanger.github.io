@@ -4,6 +4,25 @@ title: "Achievements"
 permalink: /achievements/
 ---
 
+<style>
+  /* Add CSS styles to wrap images to the right */
+  ul li {
+    list-style-type: none; /* Remove bullet points from the list items */
+  }
+
+  .list-item {
+    clear: both; /* Clear any floats before the list items */
+    margin-bottom: 20px; /* Add some margin between list items */
+  }
+
+  .list-item img {
+    float: left; /* Float the image to the right of the list item */
+    margin-right: 20px; /* Add margin to separate the image from text */
+    width: 100px; /* Set the desired width for the images */
+    height: auto; /* Automatically adjust the height to maintain the aspect ratio */
+  }
+</style>
+
 <article>
   <section>
     <h3>AWS Courses</h3>
@@ -16,11 +35,26 @@ permalink: /achievements/
   <section>
     <h3>AWS Certifications</h3>
     <ul>
-      <li>Cloud Quest: Cloud Practitioner</li>
-      <li>Cloud Quest: Solutions Architect</li>
-      <li>Cloud Quest: Data Analytics</li>
-      <li>Cloud Quest: Networking</li>
-      <li>Cloud Quest: Serverless Developer</li>
+      <li class="list-item">
+        <img src="../cloud_practitioner.png" alt="Cloud Practitioner">
+        Cloud Quest: Cloud Practitioner
+      </li>
+      <li class="list-item">
+        <img src="../solutions_architect.png" alt="Solutions Architect">
+        Cloud Quest: Solutions Architect
+      </li>
+      <li class="list-item">
+        <img src="../data_analytics.png" alt="Data Analytics">
+        Cloud Quest: Data Analytics
+      </li>
+      <li class="list-item">
+        <img src="../networking.png" alt="Networking">
+        Cloud Quest: Networking
+      </li>
+      <li class="list-item">
+        <img src="../serverless_developer.png" alt="Serverless Developer">
+        Cloud Quest: Serverless Developer
+      </li>
     </ul>
   </section>
 </article>
