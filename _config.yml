@@ -28,10 +28,10 @@ nav:
 # Social links
 social:
   - name: LinkedIn
-    url: https://linkedin.com/in/yourprofile
+    url: https://www.linkedin.com/in/kevin-belanger-6779621b6/
     icon: fab fa-linkedin
   - name: GitHub
-    url: https://github.com/yourusername
+    url: https://github.com/kjbelanger
     icon: fab fa-github
   - name: Email
     url: mailto:kevinjbelanger@hotmail.com
