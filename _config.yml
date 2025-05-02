@@ -13,6 +13,14 @@ collections:
     output: true
     permalink: /:path/
 
+# Defaults
+defaults:
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "default"
+
 # Navigation
 nav:
   - title: Home
@@ -82,21 +90,14 @@ navigation:                # accepts {file, title, url, icon, sidebaricon}
   - {file: "contact.html", title: "Contact"}
 
 # SEO
-defaults:
-  -
-    scope:
-      path: ""
-    values:
-      layout: "page"
-      author: "Kevin Belanger"
-      description: "Professional portfolio showcasing cloud expertise and technical skills"
-      keywords: "cloud computing, AWS, Azure, networking, infrastructure, DevOps"
+author: Kevin Belanger
+keywords: cloud computing, AWS, Azure, networking, infrastructure, DevOps
 
 comments:
 #  disqus_shortname: ""    # see https://disqus.com/
 #  isso_domain: ""         # see https://posativ.org/isso/
 
 plugins:
- - jekyll-feed
- - jekyll-seo-tag
- - jekyll-sitemap
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
