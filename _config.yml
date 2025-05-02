@@ -1,3 +1,4 @@
+# Site settings
 title: Kevin Belanger
 email: kevinjbelanger@hotmail.com
 description: Cloud Infrastructure Engineer specializing in AWS, Azure, and DevOps practices.
@@ -12,24 +13,23 @@ collections:
     output: true
     permalink: /:path/
 
-# Defaults
-defaults:
-  - scope:
-      path: ""
-      type: "pages"
-    values:
-      layout: "default"
-
 # Navigation
 nav:
   - title: Home
     url: /
+    icon: fas fa-home
   - title: Resume
-    url: /_pages/resume.html
+    url: /pages/resume
+    icon: fas fa-file-alt
   - title: Projects
-    url: /_pages/projects.html
+    url: /pages/projects
+    icon: fas fa-project-diagram
+  - title: Skills
+    url: /pages/skills
+    icon: fas fa-cogs
   - title: Contact
-    url: /_pages/contact.html
+    url: /pages/contact
+    icon: fas fa-envelope
 
 # Social links
 social:
@@ -52,6 +52,8 @@ exclude:
   - vendor/cache/
   - vendor/gems/
   - vendor/ruby/
+  - README.md
+  - LICENSE
 
 # Navigation
 header_pages:

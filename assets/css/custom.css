@@ -79,10 +79,24 @@ header {
 }
 
 .logo {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  text-decoration: none;
+}
+
+.profile-pic {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid var(--light-text);
+}
+
+.logo span {
   color: var(--light-text);
   font-size: 1.5rem;
   font-weight: bold;
-  text-decoration: none;
 }
 
 .nav-links {
@@ -92,13 +106,22 @@ header {
 }
 
 .nav-links a {
-  color: var(--light-text);
-  text-decoration: none;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.5rem 1rem;
+  border-radius: var(--border-radius);
   transition: var(--transition);
 }
 
-.nav-links a:hover {
+.nav-links a:hover,
+.nav-links a.active {
+  background-color: rgba(255, 255, 255, 0.1);
   color: var(--secondary-color);
+}
+
+.nav-links i {
+  font-size: 1.2rem;
 }
 
 /* Hero Section */
@@ -265,15 +288,17 @@ footer {
 
 /* Responsive Design */
 @media (max-width: 768px) {
-  .nav-wrapper {
-    flex-direction: column;
-    gap: 1rem;
+  .logo {
+    margin-bottom: 1rem;
   }
-
+  
   .nav-links {
-    flex-direction: column;
-    text-align: center;
-    gap: 1rem;
+    width: 100%;
+    justify-content: center;
+  }
+  
+  .nav-links a {
+    padding: 0.75rem 1rem;
   }
 
   .hero h1 {
