@@ -1,9 +1,63 @@
-title: "Kevin's Personal Website"
-description: "Professional portfolio showcasing cloud expertise and technical skills"
-permalink: /:title/
-lang: "en"
-excerpt_separator: "\n\n\n"
-date_format: "%B %d, %Y"
+title: Kevin Belanger
+email: kevinjbelanger@hotmail.com
+description: >- # this means to ignore newlines until "baseurl:"
+  Personal website showcasing my projects, skills, and experience.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+twitter_username: kjbelanger
+github_username:  kjbelanger
+
+# Build settings
+markdown: kramdown
+theme: jekyll-theme-primer
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# Exclude from processing
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+
+# Collections
+collections:
+  pages:
+    output: true
+    permalink: /:path/
+
+# Defaults
+defaults:
+  -
+    scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "default"
+
+# Navigation
+header_pages:
+  - about.html
+  - skills.html
+  - projects.html
+  - resume.html
+  - contact.html
+
+# Social links
+external:
+  - title: GitHub
+    url: https://github.com/kjbelanger
+    icon: github
+  - title: LinkedIn
+    url: https://www.linkedin.com/in/kevin-belanger-1b1b1b1b1/
+    icon: linkedin
+  - title: Twitter
+    url: https://twitter.com/kjbelanger
+    icon: twitter
 
 # Layout
 
@@ -33,11 +87,6 @@ defaults:
       author: "Kevin Belanger"
       description: "Professional portfolio showcasing cloud expertise and technical skills"
       keywords: "cloud computing, AWS, Azure, networking, infrastructure, DevOps"
-
-# Social Links
-external:                  # shows a footer with social links - for available icons see fontawesome.com/icons
-  - {title: Mail, icon: envelope, url: "mailto:kevinjbelanger@hotmail.com"}
-  - {title: LinkedIn, icon: linkedin, url: "https://www.linkedin.com/in/kevin-belanger-6779621b6/"}
 
 comments:
 #  disqus_shortname: ""    # see https://disqus.com/
