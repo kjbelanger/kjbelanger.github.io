@@ -1,66 +1,60 @@
 ---
 layout: default
-title: Contact
+title: "Contact"
 ---
 
 <div class="wrapper">
-  <h1>Contact Me</h1>
+  <header>
+    <h1><i class="fas fa-envelope"></i> Get in Touch</h1>
+  </header>
 
-  <div class="section">
-    <div class="section-header">
-      <i class="fas fa-envelope"></i>
-      <h2>Get in Touch</h2>
-    </div>
-    <div class="card">
-      <form action="https://formspree.io/f/your-form-id" method="POST">
-        <div class="form-group">
-          <label for="name">Name</label>
-          <input type="text" id="name" name="name" required>
-        </div>
-        <div class="form-group">
-          <label for="email">Email</label>
-          <input type="email" id="email" name="email" required>
-        </div>
-        <div class="form-group">
-          <label for="subject">Subject</label>
-          <input type="text" id="subject" name="subject" required>
-        </div>
-        <div class="form-group">
-          <label for="message">Message</label>
-          <textarea id="message" name="message" rows="5" required></textarea>
-        </div>
-        <button type="submit" class="submit-btn">
-          <i class="fas fa-paper-plane"></i> Send Message
-        </button>
-      </form>
-    </div>
-  </div>
+  <section>
+    <h2><i class="fas fa-paper-plane"></i> Send a Message</h2>
+    <form action="https://formspree.io/f/mgvkavab" method="POST" class="contact-form">
+      <div class="form-group">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+      </div>
+      <div class="form-group">
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+      </div>
+      <div class="form-group">
+        <label for="subject">Subject:</label>
+        <input type="text" id="subject" name="subject" required>
+      </div>
+      <div class="form-group">
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" required></textarea>
+      </div>
+      <button type="submit" class="submit-btn">
+        <i class="fas fa-paper-plane"></i> Send Message
+      </button>
+    </form>
+  </section>
 
-  <div class="section">
-    <div class="section-header">
-      <i class="fas fa-map-marker-alt"></i>
-      <h2>Connect With Me</h2>
-    </div>
+  <section>
+    <h2><i class="fas fa-link"></i> Connect With Me</h2>
     <div class="grid">
       <div class="card">
-        <h3>Social Media</h3>
-        <ul class="feature-list">
-          <li><a href="https://www.linkedin.com/in/kevin-belanger-6779621b6/" target="_blank" class="submit-btn" style="display: inline-block; margin: 5px 0;">
+        <h3><i class="fas fa-share-alt"></i> Social Media</h3>
+        <div class="social-links">
+          <a href="https://www.linkedin.com/in/kevin-belanger-b1b3b0227/" class="submit-btn" target="_blank">
             <i class="fab fa-linkedin" style="color: white;"></i> LinkedIn
-          </a></li>
-          <li><a href="https://github.com/kjbelanger" target="_blank" class="submit-btn" style="display: inline-block; margin: 5px 0;">
+          </a>
+          <a href="https://github.com/kjbelanger" class="submit-btn" target="_blank">
             <i class="fab fa-github" style="color: white;"></i> GitHub
-          </a></li>
-        </ul>
+          </a>
+        </div>
       </div>
       <div class="card">
-        <h3>Contact Information</h3>
+        <h3><i class="fas fa-address-card"></i> Contact Information</h3>
         <ul class="feature-list">
           <li><i class="fas fa-envelope"></i> kevinjbelanger@hotmail.com</li>
-          <li><i class="fas fa-phone"></i> (613) 806-3817</li>
-          <li><i class="fas fa-map-marker-alt"></i> Ottawa, Canada</li>
+          <li><i class="fas fa-phone"></i> (613) 869-6969</li>
+          <li><i class="fas fa-map-marker-alt"></i> Ottawa, ON</li>
         </ul>
       </div>
     </div>
-  </div>
+  </section>
 </div> 
