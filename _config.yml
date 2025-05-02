@@ -21,6 +21,9 @@ nav:
   - title: Skills
     url: /skills/
     icon: fas fa-cogs
+  - title: Achievements
+    url: /achievements/
+    icon: fas fa-trophy
   - title: Contact
     url: /contact/
     icon: fas fa-envelope
