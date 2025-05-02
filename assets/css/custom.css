@@ -12,7 +12,7 @@
   --transition: all 0.3s ease;
   --border-color: #404040;
   --nav-hover-color: #2d2d2d;
-  --section-spacing: 2rem;
+  --section-spacing: 1.5rem;
   --card-radius: 12px;
   --transition-speed: 0.3s;
 }
@@ -135,37 +135,37 @@ header {
 /* Hero Section */
 .hero {
   text-align: center;
-  padding: 4rem 0;
+  padding: 2rem 0;
 }
 
 .hero h1 {
-  font-size: 3rem;
-  margin-bottom: 1rem;
-  color: var(--primary-color);
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
 }
 
 .subtitle {
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   color: var(--secondary-color);
-  margin-bottom: 2rem;
+  margin-bottom: 1.5rem;
 }
 
 .hero-buttons {
   display: flex;
   gap: 1rem;
   justify-content: center;
+  margin-bottom: 1.5rem;
 }
 
 /* Sections */
 .section {
-  margin: 4rem 0;
+  margin: 2rem 0;
 }
 
 .section-header {
   display: flex;
   align-items: center;
   gap: 0.5rem;
-  margin-bottom: 1rem;
+  margin-bottom: 0.75rem;
 }
 
 .section-header i {
@@ -183,7 +183,7 @@ header {
 .card {
   background-color: var(--card-background);
   border-radius: var(--card-radius);
-  padding: 2rem;
+  padding: 1.5rem;
   box-shadow: var(--box-shadow);
   transition: var(--transition);
   color: var(--light-text);
