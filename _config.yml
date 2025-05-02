@@ -7,36 +7,22 @@ description: Cloud Infrastructure Engineer specializing in AWS, Azure, and DevOp
 markdown: kramdown
 permalink: pretty
 
-# Collections
-collections:
-  pages:
-    output: true
-    permalink: /:path/
-
-# Defaults
-defaults:
-  - scope:
-      path: ""
-      type: "pages"
-    values:
-      layout: "default"
-
 # Navigation
 nav:
   - title: Home
     url: /
     icon: fas fa-home
   - title: Resume
-    url: /_pages/resume.html
+    url: /resume.html
     icon: fas fa-file-alt
   - title: Projects
-    url: /_pages/projects.html
+    url: /projects.html
     icon: fas fa-project-diagram
   - title: Skills
-    url: /_pages/skills.html
+    url: /skills.html
     icon: fas fa-cogs
   - title: Contact
-    url: /_pages/contact.html
+    url: /contact.html
     icon: fas fa-envelope
 
 # Social links
