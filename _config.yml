@@ -1,5 +1,5 @@
 title: "Kevin's Personal Website"
-description: "Contact me -->"
+description: "Professional portfolio showcasing cloud expertise and technical skills"
 permalink: /:title/
 lang: "en"
 excerpt_separator: "\n\n\n"
@@ -17,9 +17,24 @@ minimal: false             # use a dark header
 navigation:                # accepts {file, title, url, icon, sidebaricon}
   - {file: "welcome.html", title: "Home"}
   - {file: "about.html", title: "About Me"}
-  - {file: "achievements.html", title: "Achievements"}
+  - {file: "resume.html", title: "Resume"}
+  - {file: "projects.html", title: "Projects"}
   - {file: "skills.html", title: "Skills"}
+  - {file: "achievements.html", title: "Achievements"}
+  - {file: "contact.html", title: "Contact"}
 
+# SEO
+defaults:
+  -
+    scope:
+      path: ""
+    values:
+      layout: "page"
+      author: "Kevin Belanger"
+      description: "Professional portfolio showcasing cloud expertise and technical skills"
+      keywords: "cloud computing, AWS, Azure, networking, infrastructure, DevOps"
+
+# Social Links
 external:                  # shows a footer with social links - for available icons see fontawesome.com/icons
   - {title: Mail, icon: envelope, url: "mailto:kevinjbelanger@hotmail.com"}
   - {title: LinkedIn, icon: linkedin, url: "https://www.linkedin.com/in/kevin-belanger-6779621b6/"}
@@ -30,3 +45,5 @@ comments:
 
 plugins:
  - jekyll-feed
+ - jekyll-seo-tag
+ - jekyll-sitemap
