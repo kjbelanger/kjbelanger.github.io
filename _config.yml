@@ -19,16 +19,16 @@ nav:
     url: /
     icon: fas fa-home
   - title: Resume
-    url: /pages/resume
+    url: /_pages/resume.html
     icon: fas fa-file-alt
   - title: Projects
-    url: /pages/projects
+    url: /_pages/projects.html
     icon: fas fa-project-diagram
   - title: Skills
-    url: /pages/skills
+    url: /_pages/skills.html
     icon: fas fa-cogs
   - title: Contact
-    url: /pages/contact
+    url: /_pages/contact.html
     icon: fas fa-envelope
 
 # Social links
